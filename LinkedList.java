@@ -52,7 +52,7 @@ public void deleteBegin()
    } else {
        Node temp =head;
        head = head.next;
-       System.out.print("Deleted Element is:1 ");
+       System.out.println("Deleted Element is:1");
        if (head == null) {
            tail = null;
        }
